@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -8,7 +8,7 @@ namespace Beasts.Api;
 
 public static class PoeNinja
 {
-    private static readonly string PoeNinjaUrl = "https://poe.ninja/api/data/itemoverview?league=Keepers&type=Beast";
+    private static readonly string PoeNinjaUrl = "https://poe.ninja/api/data/itemoverview?league=Mirage&type=Beast";
 
     private class PoeNinjaLine
     {
